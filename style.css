@@ -1,5 +1,9 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:300|Playfair+Display:700&display=swap&subset=latin-ext');
 
+* {
+  box-sizing: border-box;
+}
+
 html {
   font-family: 'Open Sans', sans-serif;
   font-size: 15px;
@@ -62,4 +66,18 @@ button {
 footer {
   font-size: 12px;
   margin-top: 30px;
+}
+
+.div_jedna {
+  width: 50%;
+}
+
+.div_dva {
+  width: 50%;
+}
+
+.kontejner {
+  display: flex;
+  text-align: left;
+  gap: 40px;
 }
