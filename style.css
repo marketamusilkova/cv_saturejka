@@ -19,36 +19,44 @@ h2 {
 
 section {
   background-color: #ffffff;
-  padding: 50px;
+  padding: 20px 50px;
   margin: 0 100px;
 }
 
-.nase_nabidka img {
-  width: 32%;
-  border-radius: 10px;
+.obrazky {
+  flex: display;
+  margin-bottom: 40px;
+}
+
+.obr {
+  max-width: 32%;
 }
 
 .foto_losos {
   float: left;
-  width: 200px;
+  width: 250px;
   margin-right: 40px;
 }
 
 .foto_tagliatelle {
   float: right;
-  width: 200px;
+  width: 250px;
   margin-left: 40px;
 }
 
 .foto_sladke {
   float: left;
-  width: 200px;
+  width: 250px;
   margin-right: 40px;
 }
 
 .losos,
 .sladke {
   text-align: left;
+}
+
+.sladke {
+  padding-bottom: 50px;
 }
 
 .tagliatelle {
@@ -80,4 +88,8 @@ footer {
   display: flex;
   text-align: left;
   gap: 40px;
+}
+
+.jedna_a_tri {
+  padding-bottom: 20px;
 }
